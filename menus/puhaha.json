@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle puhaha",
+        "command": "puhaha:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "puhaha",
+          "submenu": [
+            {
+              "label": "Toggle puhaha",
+              "command": "puhaha:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
